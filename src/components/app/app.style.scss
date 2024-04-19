@@ -1,0 +1,26 @@
+.ui-app {
+    padding: 20px;
+    font-family: sans-serif;
+
+    // navigation
+    &__navigation {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Добавлено для выравнивания по центру */
+        margin-bottom: 20px;
+
+        &__link {
+            flex: 0 0 auto;
+            margin-right: 20px;
+            font-size: 14px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #000;
+
+            &--active {
+                color: #3a53b7;
+                font-weight: bold;
+            }
+        }
+    }
+}
